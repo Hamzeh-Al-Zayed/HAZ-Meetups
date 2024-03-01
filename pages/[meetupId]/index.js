@@ -76,7 +76,7 @@ export async function getStaticProps(context) {
         ...meetupDetails, // Spread operator to copy all properties from the specific meetup
       },
     },
-    revalidate: 10, // Optionally, revalidate the page data every 10 seconds (useful for ISR)
+    revalidate: 1, // Optionally, revalidate the page data every 10 seconds (useful for ISR)
   };
 }
 
