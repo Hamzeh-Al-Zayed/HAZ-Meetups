@@ -6,3 +6,9 @@
   width: 100%;
   border-radius: 8px;
 }
+
+.detail h1,
+.detail address,
+.detail p {
+  color: #fcb8d2;
+}

@@ -3,13 +3,21 @@
   height: 5rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color: #77002e;
   padding: 0 10%;
 }
 
+.image {
+  margin-left: 140px;
+  margin-right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .logo {
   font-size: 2rem;
+  margin-right: 500px;
   color: white;
   font-weight: bold;
 }
